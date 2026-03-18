@@ -1,5 +1,5 @@
 # VoiceGenAI
-Projeto desenvolvido no Bootcamp Bradesco – GenAI & Dados - Assistente de Voz - Multi-idiomas
+Projeto desenvolvido no Bootcamp Bradesco – GenAI & Dados
 
 <a href="https://web.dio.me/track/bradesco-genai-dados" target="_blank">
   <img src="https://github.com/user-attachments/assets/b2f178bf-00d5-4020-9f35-743331f28bbd" width="120" alt="Logo Bradesco GenAI">
