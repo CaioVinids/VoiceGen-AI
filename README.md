@@ -23,7 +23,7 @@ Este projeto consiste em um assistente de voz capaz de ouvir, processar e respon
 
 ## 🚀 Funcionalidades
 * Captura de áudio via interface JavaScript no navegador.
-* Transcrição robusta a ruídos e sotaques com o modelo Whisper.
+* Transcrição com o modelo Whisper.
 * Integração segura com API via Secrets do Colab.
 * Resposta sintetizada em áudio.
 
