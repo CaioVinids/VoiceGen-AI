@@ -108,12 +108,12 @@ try:
     # Geramos a resposta com base na transcrição do Whisper
     response = model_instance.generate_content(transcription)
 
-    chatgpt_response = response.text  # Mantendo o nome da variável original
-    print(f"🤖 Gemini respondeu: {chatgpt_response}")
+    gemini_response = response.text  # Mantendo o nome da variável original
+    print(f"🤖 Gemini respondeu: {gemini_response}")
 
 except Exception as e:
     print(f"❌ Erro ao gerar resposta: {e}")
-    chatgpt_response = "Desculpe, tive um problema ao processar sua pergunta."
+    gemini_response = "Desculpe, tive um problema ao processar sua pergunta."
 
 # # Listar os modelos disponíveis (mantido para referência, pode ser removido depois)
 # print("Modelos Gemini disponíveis:")
@@ -124,7 +124,7 @@ except Exception as e:
 """# 4. Sintetizando a Resposta do Gemini Como Voz (gTTS) 🔊"""
 
 # Cria um objeto gTTS com a resposta gerada pelo Gemini e a língua que será sintetizada em voz (variável "language").
-gtts_object = gTTS(text=chatgpt_response, lang=language, slow=False)
+gtts_object = gTTS(text=gemini_response, lang=language, slow=False)
 
 # Salva o áudio da resposta no arquivo especificado (pasta padrão do Google Colab)
 response_audio = "/content/response_audio.wav"
